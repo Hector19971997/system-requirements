@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_19kUUKJUEeeZF5B6HYTfUA" name="RootElement">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_2P4MUKJUEeeZF5B6HYTfUA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_2QdbIKJUEeeZF5B6HYTfUA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7h9s0KJbEeeZF5B6HYTfUA" name="Package2"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_PPDMcKQSEee50o4-miAdRQ" name="req[package]requirements[cluster]">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NX-R4KQZEee50o4-miAdRQ" name="req[package]requirements[odometro]">
+        <packagedElement xmi:type="uml:Class" xmi:id="_TgB1QKQZEee50o4-miAdRQ" name="Proposito"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_g_PMYKQZEee50o4-miAdRQ" name="Requirement1"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Sx8x0KQaEee50o4-miAdRQ" name="Requirement2"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aQ-vMKQaEee50o4-miAdRQ" name="trip odometer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oiOnQKQaEee50o4-miAdRQ" name="Error "/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_46fPIKQaEee50o4-miAdRQ" name="ignicion "/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Pqw8KJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Pqw8aJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Pw3kKJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2PxeoKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2PxeoaJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2PyFsKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2PyFsaJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2PyswKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2PzT0KJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2PzT0aJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Pz64KJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2Pz64aJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2P0h8KJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2P0h8aJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2P1JAKJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2P1wEKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2P2XIKJUEeeZF5B6HYTfUA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2P2XIaJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_TgcsAKQZEee50o4-miAdRQ" base_Class="_TgB1QKQZEee50o4-miAdRQ" id="odometro " text="El odómetro es el elemento encargado de desplegar en KM la distancia recorrida por el vehículo. La importancia de este valor radica en saber que tanto ha sido usado el vehículo."/>
+  <Requirements:Requirement xmi:id="_g_xX4KQZEee50o4-miAdRQ" base_Class="_g_PMYKQZEee50o4-miAdRQ" id="O_021" text="El valor del odómetro (distancia total recorrida) deberá desplegarse en un display LCD, este valor se actualizará en el visualizador cada 500ms"/>
+  <Requirements:Requirement xmi:id="_SyXokKQaEee50o4-miAdRQ" base_Class="_Sx8x0KQaEee50o4-miAdRQ" id="O_022" text="La distancia total recorrida por el odómetro se debe de mostrar al encender la unidad y nunca se debe de perder su valor"/>
+  <Requirements:Requirement xmi:id="_aRaNAKQaEee50o4-miAdRQ" base_Class="_aQ-vMKQaEee50o4-miAdRQ" id="O_024" text="El odómetro cuenta adicionalmente con un medidor de distancia recorrida por viaje &#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_oiuWgKQaEee50o4-miAdRQ" base_Class="_oiOnQKQaEee50o4-miAdRQ" id="O_025" text="odómetro nunca despliegue un valor inferior al ya recorrido, si este valor fuera alterado se debe de mostrar un mensaje de error&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_469JMKQaEee50o4-miAdRQ" base_Class="_46fPIKQaEee50o4-miAdRQ" id="O_026" text="los valores desplegados por el odómetro y trip odo, deben de ser siempre legibles para el usuario mientras la unidad se encuentre encendida."/>
+</xmi:XMI>
