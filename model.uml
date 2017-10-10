@@ -8,15 +8,29 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_7h9s0KJbEeeZF5B6HYTfUA" name="Package2"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_PPDMcKQSEee50o4-miAdRQ" name="req[package]requirements[cluster]">
-      <packagedElement xmi:type="uml:Package" xmi:id="_NX-R4KQZEee50o4-miAdRQ" name="req[package]requirements[odometro]">
-        <packagedElement xmi:type="uml:Class" xmi:id="_TgB1QKQZEee50o4-miAdRQ" name="Proposito"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_g_PMYKQZEee50o4-miAdRQ" name="Requirement1"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Sx8x0KQaEee50o4-miAdRQ" name="Requirement2"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_aQ-vMKQaEee50o4-miAdRQ" name="trip odometer"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_oiOnQKQaEee50o4-miAdRQ" name="Error "/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_46fPIKQaEee50o4-miAdRQ" name="ignicion "/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NX-R4KQZEee50o4-miAdRQ" name="req[package]requirements[odometro]">
+      <packagedElement xmi:type="uml:Class" xmi:id="_TgB1QKQZEee50o4-miAdRQ" name="Proposito">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_aQ-vMKQaEee50o4-miAdRQ" name="trip odometer"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_Sx8x0KQaEee50o4-miAdRQ" name="valor"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_46fPIKQaEee50o4-miAdRQ" name="Encendido"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_g_PMYKQZEee50o4-miAdRQ" name="display"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oiOnQKQaEee50o4-miAdRQ" name="Error "/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="__-tzMK1XEeeWnYnqCWhu6g" name="DeriveReqt1" client="_oiOnQKQaEee50o4-miAdRQ" supplier="_Sx8x0KQaEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_BtisgK1YEeeWnYnqCWhu6g" name="DeriveReqt2" client="_g_PMYKQZEee50o4-miAdRQ" supplier="_Sx8x0KQaEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PJhwgK1YEeeWnYnqCWhu6g" name="Tiempo de actualizacion"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_azmK8K1YEeeWnYnqCWhu6g" name="DeriveReqt3" client="_PJhwgK1YEeeWnYnqCWhu6g" supplier="_g_PMYKQZEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_v9ANoK1YEeeWnYnqCWhu6g" name="Requirement1"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_kPV3MK1ZEeeWnYnqCWhu6g" name="DeriveReqt4" client="_v9ANoK1YEeeWnYnqCWhu6g" supplier="_Sx8x0KQaEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Bmc7IK1aEeeWnYnqCWhu6g" name="Requirement2"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_T9La0K1aEeeWnYnqCWhu6g" name="DeriveReqt5" client="_Bmc7IK1aEeeWnYnqCWhu6g" supplier="_aQ-vMKQaEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_jGWZYK1aEeeWnYnqCWhu6g" name="DeriveReqt6" client="_46fPIKQaEee50o4-miAdRQ" supplier="_TgB1QKQZEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_694PMK1aEeeWnYnqCWhu6g" name="DeriveReqt7" client="_v9ANoK1YEeeWnYnqCWhu6g" supplier="_aQ-vMKQaEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_9OmUoK1aEeeWnYnqCWhu6g" name="DeriveReqt8" client="_g_PMYKQZEee50o4-miAdRQ" supplier="_aQ-vMKQaEee50o4-miAdRQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_-NNR8K1aEeeWnYnqCWhu6g" name="DeriveReqt9" client="_oiOnQKQaEee50o4-miAdRQ" supplier="_aQ-vMKQaEee50o4-miAdRQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Constraint" xmi:id="_N9lh0K1YEeeWnYnqCWhu6g" name="Constraint1">
+      <specification xmi:type="uml:LiteralString" xmi:id="_N-7loK1YEeeWnYnqCWhu6g" name="constraintSpec"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -80,9 +94,21 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_TgcsAKQZEee50o4-miAdRQ" base_Class="_TgB1QKQZEee50o4-miAdRQ" id="odometro " text="El odómetro es el elemento encargado de desplegar en KM la distancia recorrida por el vehículo. La importancia de este valor radica en saber que tanto ha sido usado el vehículo."/>
-  <Requirements:Requirement xmi:id="_g_xX4KQZEee50o4-miAdRQ" base_Class="_g_PMYKQZEee50o4-miAdRQ" id="O_021" text="El valor del odómetro (distancia total recorrida) deberá desplegarse en un display LCD, este valor se actualizará en el visualizador cada 500ms"/>
+  <Requirements:Requirement xmi:id="_g_xX4KQZEee50o4-miAdRQ" base_Class="_g_PMYKQZEee50o4-miAdRQ" id="O_021" text="El valor del odómetro (distancia total recorrida) deberá desplegarse en un display LCD"/>
   <Requirements:Requirement xmi:id="_SyXokKQaEee50o4-miAdRQ" base_Class="_Sx8x0KQaEee50o4-miAdRQ" id="O_022" text="La distancia total recorrida por el odómetro se debe de mostrar al encender la unidad y nunca se debe de perder su valor"/>
   <Requirements:Requirement xmi:id="_aRaNAKQaEee50o4-miAdRQ" base_Class="_aQ-vMKQaEee50o4-miAdRQ" id="O_024" text="El odómetro cuenta adicionalmente con un medidor de distancia recorrida por viaje &#xD;&#xA;"/>
-  <Requirements:Requirement xmi:id="_oiuWgKQaEee50o4-miAdRQ" base_Class="_oiOnQKQaEee50o4-miAdRQ" id="O_025" text="odómetro nunca despliegue un valor inferior al ya recorrido, si este valor fuera alterado se debe de mostrar un mensaje de error&#xD;&#xA;"/>
+  <Requirements:Requirement xmi:id="_oiuWgKQaEee50o4-miAdRQ" base_Class="_oiOnQKQaEee50o4-miAdRQ" id="O_025" text="odómetro nunca despliegue un valor inferior al ya recorrido, si este valor fuera alterado se debe de mostrar un mensaje de error, siendo este 999999&#xD;&#xA;&#xD;&#xA;"/>
   <Requirements:Requirement xmi:id="_469JMKQaEee50o4-miAdRQ" base_Class="_46fPIKQaEee50o4-miAdRQ" id="O_026" text="los valores desplegados por el odómetro y trip odo, deben de ser siempre legibles para el usuario mientras la unidad se encuentre encendida."/>
+  <Requirements:DeriveReqt xmi:id="___nLEK1XEeeWnYnqCWhu6g" base_DirectedRelationship="__-tzMK1XEeeWnYnqCWhu6g" base_Abstraction="__-tzMK1XEeeWnYnqCWhu6g"/>
+  <Requirements:DeriveReqt xmi:id="_Bt_YcK1YEeeWnYnqCWhu6g" base_DirectedRelationship="_BtisgK1YEeeWnYnqCWhu6g" base_Abstraction="_BtisgK1YEeeWnYnqCWhu6g"/>
+  <Requirements:Requirement xmi:id="_PMXCEK1YEeeWnYnqCWhu6g" base_Class="_PJhwgK1YEeeWnYnqCWhu6g" id="O_0212" text="El valor se actualizará en el visualizador cada 500ms"/>
+  <Requirements:DeriveReqt xmi:id="_a0C24K1YEeeWnYnqCWhu6g" base_DirectedRelationship="_azmK8K1YEeeWnYnqCWhu6g" base_Abstraction="_azmK8K1YEeeWnYnqCWhu6g"/>
+  <Requirements:Requirement xmi:id="_v9c5kK1YEeeWnYnqCWhu6g" base_Class="_v9ANoK1YEeeWnYnqCWhu6g" text="Al  recibir la señal de incrementar (que se recibe atraves de UART), la distancia total recorrida es actualizada, después de recibirla y grabarla en la EEPROM del microcontrolador."/>
+  <Requirements:DeriveReqt xmi:id="_kPoyIK1ZEeeWnYnqCWhu6g" base_DirectedRelationship="_kPV3MK1ZEeeWnYnqCWhu6g" base_Abstraction="_kPV3MK1ZEeeWnYnqCWhu6g"/>
+  <Requirements:Requirement xmi:id="_Bm5nEK1aEeeWnYnqCWhu6g" base_Class="_Bmc7IK1aEeeWnYnqCWhu6g" id="Boton de trip" text="Cuenta con un botón que el usuario puede presionar para poner este valor en cero y hacer una nueva medición."/>
+  <Requirements:DeriveReqt xmi:id="_T9x3wK1aEeeWnYnqCWhu6g" base_DirectedRelationship="_T9La0K1aEeeWnYnqCWhu6g" base_Abstraction="_T9La0K1aEeeWnYnqCWhu6g"/>
+  <Requirements:DeriveReqt xmi:id="_jGyeQK1aEeeWnYnqCWhu6g" base_DirectedRelationship="_jGWZYK1aEeeWnYnqCWhu6g" base_Abstraction="_jGWZYK1aEeeWnYnqCWhu6g"/>
+  <Requirements:DeriveReqt xmi:id="_6-LxMK1aEeeWnYnqCWhu6g" base_DirectedRelationship="_694PMK1aEeeWnYnqCWhu6g" base_Abstraction="_694PMK1aEeeWnYnqCWhu6g"/>
+  <Requirements:DeriveReqt xmi:id="_9O52oK1aEeeWnYnqCWhu6g" base_DirectedRelationship="_9OmUoK1aEeeWnYnqCWhu6g" base_Abstraction="_9OmUoK1aEeeWnYnqCWhu6g"/>
+  <Requirements:DeriveReqt xmi:id="_-Ngz8K1aEeeWnYnqCWhu6g" base_DirectedRelationship="_-NNR8K1aEeeWnYnqCWhu6g" base_Abstraction="_-NNR8K1aEeeWnYnqCWhu6g"/>
 </xmi:XMI>
