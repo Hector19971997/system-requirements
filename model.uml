@@ -32,6 +32,36 @@
     <packagedElement xmi:type="uml:Constraint" xmi:id="_N9lh0K1YEeeWnYnqCWhu6g" name="Constraint1">
       <specification xmi:type="uml:LiteralString" xmi:id="_N-7loK1YEeeWnYnqCWhu6g" name="constraintSpec"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_ZBMQYLLCEeePEZqVdMYvIw" name="usuario "/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KVSKsLLEEeePEZqVdMYvIw" name="Odometer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NrBXcLLEEeePEZqVdMYvIw" name="Trip-Odometer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3rdt4LLZEeePEZqVdMYvIw" name="cambiar entre trip-odo, y odometro">
+      <include xmi:type="uml:Include" xmi:id="_1-9TULLaEeePEZqVdMYvIw" addition="_KVSKsLLEEeePEZqVdMYvIw"/>
+      <include xmi:type="uml:Include" xmi:id="_eMQ5MLLlEeePEZqVdMYvIw" addition="_NrBXcLLEEeePEZqVdMYvIw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6_qNELLaEeePEZqVdMYvIw" memberEnd="_6_spULLaEeePEZqVdMYvIw _6_tQYLLaEeePEZqVdMYvIw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6_sCQLLaEeePEZqVdMYvIw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6_sCQbLaEeePEZqVdMYvIw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6_spULLaEeePEZqVdMYvIw" name="usuario " type="_ZBMQYLLCEeePEZqVdMYvIw" association="_6_qNELLaEeePEZqVdMYvIw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_6_tQYLLaEeePEZqVdMYvIw" name="cambiar a odometro" type="_3rdt4LLZEeePEZqVdMYvIw" association="_6_qNELLaEeePEZqVdMYvIw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_c0ECELLjEeePEZqVdMYvIw" name="conductor(dueño del vehiculo)"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_dV7ZALLjEeePEZqVdMYvIw" name="tecnico"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vmat0LLjEeePEZqVdMYvIw" memberEnd="_vmat07LjEeePEZqVdMYvIw _vmke0LLjEeePEZqVdMYvIw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vmat0bLjEeePEZqVdMYvIw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vmat0rLjEeePEZqVdMYvIw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vmat07LjEeePEZqVdMYvIw" name="usuario " type="_ZBMQYLLCEeePEZqVdMYvIw" association="_vmat0LLjEeePEZqVdMYvIw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vmke0LLjEeePEZqVdMYvIw" name="conductor(dueño del vehiculo)" type="_c0ECELLjEeePEZqVdMYvIw" association="_vmat0LLjEeePEZqVdMYvIw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wnIj8LLjEeePEZqVdMYvIw" memberEnd="_wnSU8rLjEeePEZqVdMYvIw _wnSU87LjEeePEZqVdMYvIw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wnSU8LLjEeePEZqVdMYvIw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wnSU8bLjEeePEZqVdMYvIw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wnSU8rLjEeePEZqVdMYvIw" name="usuario " type="_ZBMQYLLCEeePEZqVdMYvIw" association="_wnIj8LLjEeePEZqVdMYvIw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wnSU87LjEeePEZqVdMYvIw" name="tecnico" type="_dV7ZALLjEeePEZqVdMYvIw" association="_wnIj8LLjEeePEZqVdMYvIw"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
