@@ -62,7 +62,7 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_wnSU8rLjEeePEZqVdMYvIw" name="usuario " type="_ZBMQYLLCEeePEZqVdMYvIw" association="_wnIj8LLjEeePEZqVdMYvIw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_wnSU87LjEeePEZqVdMYvIw" name="tecnico" type="_dV7ZALLjEeePEZqVdMYvIw" association="_wnIj8LLjEeePEZqVdMYvIw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_Z_PuoL03Eeev4PPWWUX-kg" name="odometer">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_Z_PuoL03Eeev4PPWWUX-kg" name="odometer" specification="_y3Wr4L3gEeebuI4WuOeUmQ">
       <lifeline xmi:type="uml:Lifeline" xmi:id="_jnxIEL03Eeev4PPWWUX-kg" name="Usuario " coveredBy="_cyuvAL2cEeebuI4WuOeUmQ _E-AgIb2dEeebuI4WuOeUmQ"/>
       <lifeline xmi:type="uml:Lifeline" xmi:id="_-DPi4L2bEeebuI4WuOeUmQ" name="ECU(arduino)" coveredBy="_Kj0HgL2cEeebuI4WuOeUmQ _Kj9Rcb2cEeebuI4WuOeUmQ _Kj9RcL2cEeebuI4WuOeUmQ _cyuvAb2cEeebuI4WuOeUmQ __TzWYb2cEeebuI4WuOeUmQ _CNXkgL2dEeebuI4WuOeUmQ _CNXkgr2dEeebuI4WuOeUmQ _CNXkgb2dEeebuI4WuOeUmQ _E-AgIr2dEeebuI4WuOeUmQ _S175Qb2dEeebuI4WuOeUmQ"/>
       <lifeline xmi:type="uml:Lifeline" xmi:id="_-oNRIL2bEeebuI4WuOeUmQ" name="Cluster" coveredBy="_yWMQcr2cEeebuI4WuOeUmQ _yWMQcb2cEeebuI4WuOeUmQ _zexpIL2cEeebuI4WuOeUmQ _-gN9UL2cEeebuI4WuOeUmQ _-gXuUL2cEeebuI4WuOeUmQ __TzWYr2cEeebuI4WuOeUmQ _OMjTUL2dEeebuI4WuOeUmQ _OMjTUr2dEeebuI4WuOeUmQ _OMjTUb2dEeebuI4WuOeUmQ _S175Qr2dEeebuI4WuOeUmQ"/>
@@ -93,14 +93,25 @@
       <message xmi:type="uml:Message" xmi:id="_E-AgIL2dEeebuI4WuOeUmQ" name="selecciondemodo(tripodo)" messageSort="asynchCall" receiveEvent="_E-AgIr2dEeebuI4WuOeUmQ" sendEvent="_E-AgIb2dEeebuI4WuOeUmQ"/>
       <message xmi:type="uml:Message" xmi:id="_S175QL2dEeebuI4WuOeUmQ" name="Desplegartrip()" messageSort="asynchCall" receiveEvent="_S175Qr2dEeebuI4WuOeUmQ" sendEvent="_S175Qb2dEeebuI4WuOeUmQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_QUgUwL2REeebuI4WuOeUmQ" name="Cluster"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_THn8oL2REeebuI4WuOeUmQ" name="Odometer" visibility="package">
-      <generalization xmi:type="uml:Generalization" xmi:id="_gYD38L2REeebuI4WuOeUmQ" general="_QUgUwL2REeebuI4WuOeUmQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_SyONAL2UEeebuI4WuOeUmQ" name="sensor de velocidad" type="_-o5HQL2TEeebuI4WuOeUmQ" aggregation="composite" association="_SxxhEL2UEeebuI4WuOeUmQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QUgUwL2REeebuI4WuOeUmQ" name="Cluster">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q_1W073rEeebuI4WuOeUmQ" name="odometer" type="_THn8oL2REeebuI4WuOeUmQ" aggregation="composite" association="_Q_1W0L3rEeebuI4WuOeUmQ"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_THn8oL2REeebuI4WuOeUmQ" name="Odometer" visibility="package">
+        <generalization xmi:type="uml:Generalization" xmi:id="_gYD38L2REeebuI4WuOeUmQ" general="_QUgUwL2REeebuI4WuOeUmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_SyONAL2UEeebuI4WuOeUmQ" name="sensor de velocidad" type="_-o5HQL2TEeebuI4WuOeUmQ" aggregation="composite" association="_SxxhEL2UEeebuI4WuOeUmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3nFwc73rEeebuI4WuOeUmQ" name="lcd display" type="_wlU94L3rEeebuI4WuOeUmQ" aggregation="composite" association="_3nFwcL3rEeebuI4WuOeUmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_-kDtIL3sEeebuI4WuOeUmQ" name="Attribute1" type="__icoAL3sEeebuI4WuOeUmQ"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_y3Wr4L3gEeebuI4WuOeUmQ" name="incrementarVelocidad" method="_Z_PuoL03Eeev4PPWWUX-kg">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_JxbdIL3wEeebuI4WuOeUmQ" name="rawMileage" type="_M-z_IL3wEeebuI4WuOeUmQ"/>
+        </ownedOperation>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_TskcwL2REeebuI4WuOeUmQ" name="Trip odometer">
-      <generalization xmi:type="uml:Generalization" xmi:id="_fphW8L2REeebuI4WuOeUmQ" general="_QUgUwL2REeebuI4WuOeUmQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Tj4Tc72UEeebuI4WuOeUmQ" name="sensor de velocidad" type="_-o5HQL2TEeebuI4WuOeUmQ" aggregation="composite" association="_Tj4TcL2UEeebuI4WuOeUmQ"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_fphW8L2REeebuI4WuOeUmQ" general="_THn8oL2REeebuI4WuOeUmQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_otsIsL3qEeebuI4WuOeUmQ" name="LCD dislplay"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QvZ4sb3sEeebuI4WuOeUmQ" name="lcd display" type="_wlU94L3rEeebuI4WuOeUmQ" aggregation="composite" association="_QvQHsL3sEeebuI4WuOeUmQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RhpN873sEeebuI4WuOeUmQ" name="sensor de velocidad" type="_-o5HQL2TEeebuI4WuOeUmQ" aggregation="composite" association="_RhpN8L3sEeebuI4WuOeUmQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_B8lvML3tEeebuI4WuOeUmQ" name="Attribute1" type="_C4IKYL3tEeebuI4WuOeUmQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_saa6IL3fEeebuI4WuOeUmQ" name="aumento de kilometraje = vel_actual/3600"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-o5HQL2TEeebuI4WuOeUmQ" name="Sensor de velocidad"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_SxxhEL2UEeebuI4WuOeUmQ" memberEnd="_SyONAL2UEeebuI4WuOeUmQ _SyONAb2UEeebuI4WuOeUmQ">
@@ -109,12 +120,36 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_SyONAb2UEeebuI4WuOeUmQ" name="odometer" type="_THn8oL2REeebuI4WuOeUmQ" association="_SxxhEL2UEeebuI4WuOeUmQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Tj4TcL2UEeebuI4WuOeUmQ" memberEnd="_Tj4Tc72UEeebuI4WuOeUmQ _Tj4TdL2UEeebuI4WuOeUmQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tj4Tcb2UEeebuI4WuOeUmQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tj4Tcr2UEeebuI4WuOeUmQ" key="nature" value="UML_Nature"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dkLCIL3gEeebuI4WuOeUmQ" name="Block1_PART"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Q_1W0L3rEeebuI4WuOeUmQ" memberEnd="_Q_1W073rEeebuI4WuOeUmQ _Q_1W1L3rEeebuI4WuOeUmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q_1W0b3rEeebuI4WuOeUmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q_1W0r3rEeebuI4WuOeUmQ" key="nature" value="UML_Nature"/>
       </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Tj4TdL2UEeebuI4WuOeUmQ" name="trip odometer" type="_TskcwL2REeebuI4WuOeUmQ" association="_Tj4TcL2UEeebuI4WuOeUmQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Q_1W1L3rEeebuI4WuOeUmQ" name="cluster" type="_QUgUwL2REeebuI4WuOeUmQ" association="_Q_1W0L3rEeebuI4WuOeUmQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wlU94L3rEeebuI4WuOeUmQ" name="LCD display"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3nFwcL3rEeebuI4WuOeUmQ" memberEnd="_3nFwc73rEeebuI4WuOeUmQ _3nFwdL3rEeebuI4WuOeUmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3nFwcb3rEeebuI4WuOeUmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3nFwcr3rEeebuI4WuOeUmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_3nFwdL3rEeebuI4WuOeUmQ" name="odometer" type="_THn8oL2REeebuI4WuOeUmQ" association="_3nFwcL3rEeebuI4WuOeUmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_QvQHsL3sEeebuI4WuOeUmQ" memberEnd="_QvZ4sb3sEeebuI4WuOeUmQ _QvZ4sr3sEeebuI4WuOeUmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QvQHsb3sEeebuI4WuOeUmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QvZ4sL3sEeebuI4WuOeUmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QvZ4sr3sEeebuI4WuOeUmQ" name="trip odometer" type="_TskcwL2REeebuI4WuOeUmQ" association="_QvQHsL3sEeebuI4WuOeUmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_RhpN8L3sEeebuI4WuOeUmQ" memberEnd="_RhpN873sEeebuI4WuOeUmQ _RhpN9L3sEeebuI4WuOeUmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RhpN8b3sEeebuI4WuOeUmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RhpN8r3sEeebuI4WuOeUmQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RhpN9L3sEeebuI4WuOeUmQ" name="trip odometer" type="_TskcwL2REeebuI4WuOeUmQ" association="_RhpN8L3sEeebuI4WuOeUmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="__icoAL3sEeebuI4WuOeUmQ" name="kilometros"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_C4IKYL3tEeebuI4WuOeUmQ" name="Kilometros"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_MQcdQL3wEeebuI4WuOeUmQ" name="Interface1"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_M-z_IL3wEeebuI4WuOeUmQ" name="km"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -175,6 +210,12 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MGs6IL3qEeebuI4WuOeUmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MHvb8L3qEeebuI4WuOeUmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_TgcsAKQZEee50o4-miAdRQ" base_Class="_TgB1QKQZEee50o4-miAdRQ" id="odometro " text="El odómetro es el elemento encargado de desplegar en KM la distancia recorrida por el vehículo. La importancia de este valor radica en saber que tanto ha sido usado el vehículo."/>
   <Requirements:Requirement xmi:id="_g_xX4KQZEee50o4-miAdRQ" base_Class="_g_PMYKQZEee50o4-miAdRQ" id="O_021" text="El valor del odómetro (distancia total recorrida) deberá desplegarse en un display LCD"/>
@@ -198,4 +239,7 @@
   <Blocks:Block xmi:id="_TH63kL2REeebuI4WuOeUmQ" base_Class="_THn8oL2REeebuI4WuOeUmQ"/>
   <Blocks:Block xmi:id="_TtBIsL2REeebuI4WuOeUmQ" base_Class="_TskcwL2REeebuI4WuOeUmQ"/>
   <Blocks:Block xmi:id="_-pMCML2TEeebuI4WuOeUmQ" base_Class="_-o5HQL2TEeebuI4WuOeUmQ"/>
+  <Blocks:Block xmi:id="_dlEaAL3gEeebuI4WuOeUmQ" base_Class="_dkLCIL3gEeebuI4WuOeUmQ"/>
+  <Blocks:Block xmi:id="_wlxp0L3rEeebuI4WuOeUmQ" base_Class="_wlU94L3rEeebuI4WuOeUmQ"/>
+  <Blocks:ValueType xmi:id="_M_2g8L3wEeebuI4WuOeUmQ" base_DataType="_M-z_IL3wEeebuI4WuOeUmQ"/>
 </xmi:XMI>
