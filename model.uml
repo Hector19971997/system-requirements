@@ -216,6 +216,88 @@
     <packagedElement xmi:type="uml:Interaction" xmi:id="_HMOKQMWXEeemEKk_yFvetg" name="Interaction1">
       <lifeline xmi:type="uml:Lifeline" xmi:id="_UFGhMMWXEeemEKk_yFvetg" name="Computadora"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YdrmkMiuEee7laL9iGod4g" name="activity diagram">
+      <packagedElement xmi:type="uml:Activity" xmi:id="_h1XusMiuEee7laL9iGod4g" name="Activity1" node="_r6CRkMiuEee7laL9iGod4g _xK2q8MiuEee7laL9iGod4g _2N2_4MiwEee7laL9iGod4g _9QxpAMiwEee7laL9iGod4g _43mAcMjrEeeOirnzJXHtFg _StWdgMjsEeeOirnzJXHtFg _l9DMkMjsEeeOirnzJXHtFg _GV6xUMjtEeeOirnzJXHtFg _O5_EIMjtEeeOirnzJXHtFg _YNPYMMjtEeeOirnzJXHtFg _sUqZcMjtEeeOirnzJXHtFg _W2hAYMjuEeeOirnzJXHtFg _prG2cMlfEeeOirnzJXHtFg _zmGf8MlfEeeOirnzJXHtFg _9C3VUMlfEeeOirnzJXHtFg _H5oDgMlgEeeOirnzJXHtFg _WxSbUMlgEeeOirnzJXHtFg _Zqp1IMlgEeeOirnzJXHtFg _eAJ1wMlgEeeOirnzJXHtFg _gRb74MlgEeeOirnzJXHtFg _Nd0PYMlhEeeOirnzJXHtFg _ThHOkMlhEeeOirnzJXHtFg _VeN0cMlhEeeOirnzJXHtFg _ZEsy8MlhEeeOirnzJXHtFg _cKHEsMlhEeeOirnzJXHtFg _doGssMlhEeeOirnzJXHtFg _kzJXEMlhEeeOirnzJXHtFg" isSingleExecution="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qxUpUMjrEeeOirnzJXHtFg" name="fff"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_Fxfs4MixEee7laL9iGod4g" name="if(modeselect==3)" target="_9QxpAMiwEee7laL9iGod4g" source="_xK2q8MiuEee7laL9iGod4g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_UPoxcMixEee7laL9iGod4g" name="if(modeselect==1)" target="_2N2_4MiwEee7laL9iGod4g" source="_xK2q8MiuEee7laL9iGod4g"/>
+        <edge xmi:type="uml:ObjectFlow" xmi:id="_ML4DoMjjEee7laL9iGod4g">
+          <guard xmi:type="uml:LiteralBoolean" xmi:id="_ML-KQMjjEee7laL9iGod4g" value="true"/>
+          <weight xmi:type="uml:LiteralInteger" xmi:id="_ML-xUMjjEee7laL9iGod4g" value="1"/>
+        </edge>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_XZI3MMjsEeeOirnzJXHtFg" target="_V-s5gMjsEeeOirnzJXHtFg" source="_43mAcMjrEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_diDWMMjsEeeOirnzJXHtFg" target="_StWdgMjsEeeOirnzJXHtFg" source="_r6CRkMiuEee7laL9iGod4g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_jMyEYMjsEeeOirnzJXHtFg" target="_xK2q8MiuEee7laL9iGod4g" source="_StWdgMjsEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_xrOq8MjsEeeOirnzJXHtFg" name="If(modeselect==2" target="_l9DMkMjsEeeOirnzJXHtFg" source="_xK2q8MiuEee7laL9iGod4g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_gwadsMjuEeeOirnzJXHtFg" target="_GV6xUMjtEeeOirnzJXHtFg" source="_2N2_4MiwEee7laL9iGod4g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_hhhKgMjuEeeOirnzJXHtFg" target="_O5_EIMjtEeeOirnzJXHtFg" source="_GV6xUMjtEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_kW5cMMjuEeeOirnzJXHtFg" name="Else" target="_O5_EIMjtEeeOirnzJXHtFg" source="_sUqZcMjtEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_tEBkYMjuEeeOirnzJXHtFg" target="_YNPYMMjtEeeOirnzJXHtFg" source="_O5_EIMjtEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_uRmx0MjuEeeOirnzJXHtFg" target="_sUqZcMjtEeeOirnzJXHtFg" source="_YNPYMMjtEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_vP9QcMjuEeeOirnzJXHtFg" target="_W2hAYMjuEeeOirnzJXHtFg" source="_sUqZcMjtEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_kYepwMlgEeeOirnzJXHtFg" target="_9C3VUMlfEeeOirnzJXHtFg" source="_l9DMkMjsEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_l1pLUMlgEeeOirnzJXHtFg" name="If reset button = True " target="_H5oDgMlgEeeOirnzJXHtFg" source="_prG2cMlfEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_qIMloMlgEeeOirnzJXHtFg" name="Else" target="_WxSbUMlgEeeOirnzJXHtFg" source="_prG2cMlfEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_tAj54MlgEeeOirnzJXHtFg" target="_prG2cMlfEeeOirnzJXHtFg" source="_9C3VUMlfEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_5doekMlgEeeOirnzJXHtFg" target="_1xDfIMlgEeeOirnzJXHtFg" source="_zmGf8MlfEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_AoimEMlhEeeOirnzJXHtFg" name="Else" target="_WxSbUMlgEeeOirnzJXHtFg" source="_eAJ1wMlgEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_EGU7kMlhEeeOirnzJXHtFg" target="_Zqp1IMlgEeeOirnzJXHtFg" source="_WxSbUMlgEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_G0fK8MlhEeeOirnzJXHtFg" target="_eAJ1wMlgEeeOirnzJXHtFg" source="_Zqp1IMlgEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_IVzzwMlhEeeOirnzJXHtFg" target="_gRb74MlgEeeOirnzJXHtFg" source="_eAJ1wMlgEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_vZQaIMlhEeeOirnzJXHtFg" target="_ThHOkMlhEeeOirnzJXHtFg" source="_Nd0PYMlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_xRlNsMlhEeeOirnzJXHtFg" name="If Reset button = true" target="_cKHEsMlhEeeOirnzJXHtFg" source="_ThHOkMlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_04XuMMlhEeeOirnzJXHtFg" name="Esle" target="_VeN0cMlhEeeOirnzJXHtFg" source="_ThHOkMlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_26ungMlhEeeOirnzJXHtFg" target="_kzJXEMlhEeeOirnzJXHtFg" source="_VeN0cMlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_3wXPAMlhEeeOirnzJXHtFg" target="_ZEsy8MlhEeeOirnzJXHtFg" source="_kzJXEMlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_4xkNUMlhEeeOirnzJXHtFg" target="_VeN0cMlhEeeOirnzJXHtFg" source="_ZEsy8MlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_9Exu8MlhEeeOirnzJXHtFg" target="_doGssMlhEeeOirnzJXHtFg" source="_ZEsy8MlhEeeOirnzJXHtFg"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="__KEAcMlhEeeOirnzJXHtFg" target="_Nd0PYMlhEeeOirnzJXHtFg" source="_9QxpAMiwEee7laL9iGod4g"/>
+        <edge xmi:type="uml:ControlFlow" xmi:id="_GneNMMliEeeOirnzJXHtFg" target="_DasIIMliEeeOirnzJXHtFg" source="_zmGf8MlfEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:InitialNode" xmi:id="_r6CRkMiuEee7laL9iGod4g" name="Ignicion " outgoing="_diDWMMjsEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_xK2q8MiuEee7laL9iGod4g" name="Mode select" incoming="_jMyEYMjsEeeOirnzJXHtFg" outgoing="_Fxfs4MixEee7laL9iGod4g _UPoxcMixEee7laL9iGod4g _xrOq8MjsEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:AddVariableValueAction" xmi:id="_2N2_4MiwEee7laL9iGod4g" name="odometro" incoming="_UPoxcMixEee7laL9iGod4g" outgoing="_gwadsMjuEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:AddVariableValueAction" xmi:id="_9QxpAMiwEee7laL9iGod4g" name="Trip-odo B" incoming="_Fxfs4MixEee7laL9iGod4g" outgoing="__KEAcMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_43mAcMjrEeeOirnzJXHtFg" name="Modo" outgoing="_XZI3MMjsEeeOirnzJXHtFg">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_43vKYMjrEeeOirnzJXHtFg" value="1"/>
+        </node>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_StWdgMjsEeeOirnzJXHtFg" name="Seleccion de modo " incoming="_diDWMMjsEeeOirnzJXHtFg" outgoing="_jMyEYMjsEeeOirnzJXHtFg">
+          <inputValue xmi:type="uml:InputPin" xmi:id="_V-s5gMjsEeeOirnzJXHtFg" name="Modo" incoming="_XZI3MMjsEeeOirnzJXHtFg">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_V-uusMjsEeeOirnzJXHtFg" value="1"/>
+          </inputValue>
+        </node>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_l9DMkMjsEeeOirnzJXHtFg" name="Trip-odo A" incoming="_xrOq8MjsEeeOirnzJXHtFg" outgoing="_kYepwMlgEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_GV6xUMjtEeeOirnzJXHtFg" name="Actualizar dato" incoming="_gwadsMjuEeeOirnzJXHtFg" outgoing="_hhhKgMjuEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_O5_EIMjtEeeOirnzJXHtFg" incoming="_hhhKgMjuEeeOirnzJXHtFg _kW5cMMjuEeeOirnzJXHtFg" outgoing="_tEBkYMjuEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:AcceptEventAction" xmi:id="_YNPYMMjtEeeOirnzJXHtFg" name="Leer Odo" incoming="_tEBkYMjuEeeOirnzJXHtFg" outgoing="_uRmx0MjuEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_sUqZcMjtEeeOirnzJXHtFg" incoming="_uRmx0MjuEeeOirnzJXHtFg" outgoing="_kW5cMMjuEeeOirnzJXHtFg _vP9QcMjuEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_W2hAYMjuEeeOirnzJXHtFg" name="Valor Actualizado" incoming="_vP9QcMjuEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_prG2cMlfEeeOirnzJXHtFg" incoming="_tAj54MlgEeeOirnzJXHtFg" outgoing="_l1pLUMlgEeeOirnzJXHtFg _qIMloMlgEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:ActivityParameterNode" xmi:id="_zmGf8MlfEeeOirnzJXHtFg" name="Reset button" outgoing="_5doekMlgEeeOirnzJXHtFg _GneNMMliEeeOirnzJXHtFg">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_zmGf8clfEeeOirnzJXHtFg" value="1"/>
+        </node>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_9C3VUMlfEeeOirnzJXHtFg" name="Set trip odo to 0" incoming="_kYepwMlgEeeOirnzJXHtFg" outgoing="_tAj54MlgEeeOirnzJXHtFg">
+          <inputValue xmi:type="uml:ActionInputPin" xmi:id="_1xDfIMlgEeeOirnzJXHtFg" name="Reset" incoming="_5doekMlgEeeOirnzJXHtFg">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_1xDfIclgEeeOirnzJXHtFg" value="1"/>
+          </inputValue>
+        </node>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_H5oDgMlgEeeOirnzJXHtFg" name="trip-odo  00000" incoming="_l1pLUMlgEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_WxSbUMlgEeeOirnzJXHtFg" incoming="_qIMloMlgEeeOirnzJXHtFg _AoimEMlhEeeOirnzJXHtFg" outgoing="_EGU7kMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:AcceptEventAction" xmi:id="_Zqp1IMlgEeeOirnzJXHtFg" name="Leer trip odo A" incoming="_EGU7kMlhEeeOirnzJXHtFg" outgoing="_G0fK8MlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_eAJ1wMlgEeeOirnzJXHtFg" incoming="_G0fK8MlhEeeOirnzJXHtFg" outgoing="_AoimEMlhEeeOirnzJXHtFg _IVzzwMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_gRb74MlgEeeOirnzJXHtFg" name="Valor Atualizado " incoming="_IVzzwMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_Nd0PYMlhEeeOirnzJXHtFg" name="Set Trip odo to 0 " incoming="__KEAcMlhEeeOirnzJXHtFg" outgoing="_vZQaIMlhEeeOirnzJXHtFg">
+          <inputValue xmi:type="uml:InputPin" xmi:id="_DasIIMliEeeOirnzJXHtFg" name="Reset" incoming="_GneNMMliEeeOirnzJXHtFg">
+            <upperBound xmi:type="uml:LiteralInteger" xmi:id="_DasIIcliEeeOirnzJXHtFg" value="1"/>
+          </inputValue>
+        </node>
+        <node xmi:type="uml:DecisionNode" xmi:id="_ThHOkMlhEeeOirnzJXHtFg" incoming="_vZQaIMlhEeeOirnzJXHtFg" outgoing="_xRlNsMlhEeeOirnzJXHtFg _04XuMMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_VeN0cMlhEeeOirnzJXHtFg" incoming="_04XuMMlhEeeOirnzJXHtFg _4xkNUMlhEeeOirnzJXHtFg" outgoing="_26ungMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:DecisionNode" xmi:id="_ZEsy8MlhEeeOirnzJXHtFg" incoming="_3wXPAMlhEeeOirnzJXHtFg" outgoing="_4xkNUMlhEeeOirnzJXHtFg _9Exu8MlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_cKHEsMlhEeeOirnzJXHtFg" name="Trip-odo 00000" incoming="_xRlNsMlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:OpaqueAction" xmi:id="_doGssMlhEeeOirnzJXHtFg" name="Valor Actualizado " incoming="_9Exu8MlhEeeOirnzJXHtFg"/>
+        <node xmi:type="uml:AcceptEventAction" xmi:id="_kzJXEMlhEeeOirnzJXHtFg" name="Leer Trip odo B" incoming="_26ungMlhEeeOirnzJXHtFg" outgoing="_3wXPAMlhEeeOirnzJXHtFg"/>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
