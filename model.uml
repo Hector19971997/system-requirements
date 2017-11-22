@@ -298,6 +298,29 @@
         <node xmi:type="uml:AcceptEventAction" xmi:id="_kzJXEMlhEeeOirnzJXHtFg" name="Leer Trip odo B" incoming="_26ungMlhEeeOirnzJXHtFg" outgoing="_3wXPAMlhEeeOirnzJXHtFg"/>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_P_4QcM_YEeeUpZgqNWE8Og" name="State Machine">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_U0dZwM_YEeeUpZgqNWE8Og" name="StateMachine1">
+        <region xmi:type="uml:Region" xmi:id="_dn8BkM_YEeeUpZgqNWE8Og" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_vRfnUM_aEeeUpZgqNWE8Og" source="_hA13EM_YEeeUpZgqNWE8Og" target="_3mhqgM_YEeeUpZgqNWE8Og"/>
+          <transition xmi:type="uml:Transition" xmi:id="_yfDvgM_aEeeUpZgqNWE8Og" name="if(modo==1)" source="_3mhqgM_YEeeUpZgqNWE8Og" target="_ArC_AM_ZEeeUpZgqNWE8Og"/>
+          <transition xmi:type="uml:Transition" xmi:id="_9gsQ8M_aEeeUpZgqNWE8Og" name="/exit cambio en la variable modo" source="_ArC_AM_ZEeeUpZgqNWE8Og" target="_3mhqgM_YEeeUpZgqNWE8Og"/>
+          <transition xmi:type="uml:Transition" xmi:id="_FysjYM_bEeeUpZgqNWE8Og" name="if(modo==2)" source="_3mhqgM_YEeeUpZgqNWE8Og" target="_XGs3QM_aEeeUpZgqNWE8Og"/>
+          <transition xmi:type="uml:Transition" xmi:id="_NteBkM_bEeeUpZgqNWE8Og" name="/exit cambio en la variable modo" source="_XGs3QM_aEeeUpZgqNWE8Og" target="_3mhqgM_YEeeUpZgqNWE8Og"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_hA13EM_YEeeUpZgqNWE8Og" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_3mhqgM_YEeeUpZgqNWE8Og" name="seleccion de modo"/>
+          <subvertex xmi:type="uml:State" xmi:id="_ArC_AM_ZEeeUpZgqNWE8Og" name="Odometro">
+            <doActivity xmi:type="uml:Activity" xmi:id="_IykDQM_aEeeUpZgqNWE8Og" name="actualizar el valor actual que se encuentra en la memoria"/>
+            <entry xmi:type="uml:Activity" xmi:id="_jDbkcM_ZEeeUpZgqNWE8Og" name="Desplegar el valor almacenado el la eemproom "/>
+            <exit xmi:type="uml:Activity" xmi:id="_M0XEwM_aEeeUpZgqNWE8Og"/>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_XGs3QM_aEeeUpZgqNWE8Og" name="Trip-odometer">
+            <doActivity xmi:type="uml:Activity" xmi:id="_pCcrIM_aEeeUpZgqNWE8Og" name="actualizar el valor que se encuentra en la memoria"/>
+            <entry xmi:type="uml:Activity" xmi:id="_ktqcMM_aEeeUpZgqNWE8Og" name="desplegar el ultimo km al que se llego cuando estaba en seleccion"/>
+            <exit xmi:type="uml:Activity" xmi:id="_try00M_aEeeUpZgqNWE8Og"/>
+          </subvertex>
+        </region>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
