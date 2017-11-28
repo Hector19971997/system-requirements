@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:ConstraintBlocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/ConstraintBlocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/ConstraintBlocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_19kUUKJUEeeZF5B6HYTfUA" name="RootElement">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_2P4MUKJUEeeZF5B6HYTfUA">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -321,6 +321,46 @@
         </region>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_m6q2cNPkEeekFecuvlB-BA" name="Par[Block] Odometer ">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9YyM0NPlEeekFecuvlB-BA" name="Odo" type="_9wwn8NPlEeekFecuvlB-BA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ORYPsNPoEeekFecuvlB-BA" name="Kilometraje" type="_M-z_IL3wEeebuI4WuOeUmQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WteSQNPoEeekFecuvlB-BA" name="TO" type="_YySpsNPoEeekFecuvlB-BA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yeFScNPoEeekFecuvlB-BA" name="LCD" type="_M-z_IL3wEeebuI4WuOeUmQ"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_6vRFgNPoEeekFecuvlB-BA" name="BindingConnector1">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_6vo48NPoEeekFecuvlB-BA" role="_ORYPsNPoEeekFecuvlB-BA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_6vqHENPoEeekFecuvlB-BA" role="_5W0WwNPmEeekFecuvlB-BA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_-mZvINPoEeekFecuvlB-BA" name="BindingConnector2">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_-moYoNPoEeekFecuvlB-BA" role="_ORYPsNPoEeekFecuvlB-BA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_-mpmwNPoEeekFecuvlB-BA" role="_hvMTQNPoEeekFecuvlB-BA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_BT4pENPpEeekFecuvlB-BA" name="BindingConnector3">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_BUGEcNPpEeekFecuvlB-BA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_BUGrgNPpEeekFecuvlB-BA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_Tpg8kNPpEeekFecuvlB-BA" name="BindingConnector4">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_TpsiwNPpEeekFecuvlB-BA" role="_8xIFANPnEeekFecuvlB-BA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Tptw4NPpEeekFecuvlB-BA" role="_yeFScNPoEeekFecuvlB-BA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_XZXScNPpEeekFecuvlB-BA" name="BindingConnector5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XZjfsNPpEeekFecuvlB-BA" role="_yeFScNPoEeekFecuvlB-BA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XZkGwNPpEeekFecuvlB-BA" role="_sv9SANPoEeekFecuvlB-BA"/>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9wwn8NPlEeekFecuvlB-BA" name="Odometer">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5W0WwNPmEeekFecuvlB-BA" name="kilometraje" type="_GcKVANPqEeekFecuvlB-BA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8xIFANPnEeekFecuvlB-BA" name="LCD" type="_M-z_IL3wEeebuI4WuOeUmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YySpsNPoEeekFecuvlB-BA" name="trip-odotemer">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hvMTQNPoEeekFecuvlB-BA" name="kilometraje" type="_GcKVANPqEeekFecuvlB-BA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sv9SANPoEeekFecuvlB-BA" name="LCD" type="_M-z_IL3wEeebuI4WuOeUmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GcKVANPqEeekFecuvlB-BA" name="Odometer Calculation">
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_lGRR4NPqEeekFecuvlB-BA" constrainedElement="_-kDtIL3sEeebuI4WuOeUmQ">
+        <specification xmi:type="uml:LiteralString" xmi:id="_lGTuINPqEeekFecuvlB-BA" name="constraintSpec" value="vel_actual/3600"/>
+      </ownedRule>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_W4HxINPqEeekFecuvlB-BA" name="kilometros" type="_M-z_IL3wEeebuI4WuOeUmQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_2Gql8KJUEeeZF5B6HYTfUA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2G5PcKJUEeeZF5B6HYTfUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -413,4 +453,13 @@
   <Blocks:Block xmi:id="_dlEaAL3gEeebuI4WuOeUmQ" base_Class="_dkLCIL3gEeebuI4WuOeUmQ"/>
   <Blocks:Block xmi:id="_wlxp0L3rEeebuI4WuOeUmQ" base_Class="_wlU94L3rEeebuI4WuOeUmQ"/>
   <Blocks:ValueType xmi:id="_M_2g8L3wEeebuI4WuOeUmQ" base_DataType="_M-z_IL3wEeebuI4WuOeUmQ"/>
+  <Blocks:Block xmi:id="_nG5UkNPkEeekFecuvlB-BA" base_Class="_m6q2cNPkEeekFecuvlB-BA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_9xZhINPlEeekFecuvlB-BA" base_Class="_9wwn8NPlEeekFecuvlB-BA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_YyzAANPoEeekFecuvlB-BA" base_Class="_YySpsNPoEeekFecuvlB-BA"/>
+  <Blocks:BindingConnector xmi:id="_6wP88NPoEeekFecuvlB-BA" base_Connector="_6vRFgNPoEeekFecuvlB-BA"/>
+  <Blocks:BindingConnector xmi:id="_-m5eYNPoEeekFecuvlB-BA" base_Connector="_-mZvINPoEeekFecuvlB-BA"/>
+  <Blocks:BindingConnector xmi:id="_BUV8ENPpEeekFecuvlB-BA" base_Connector="_BT4pENPpEeekFecuvlB-BA"/>
+  <Blocks:BindingConnector xmi:id="_Tp-PkNPpEeekFecuvlB-BA" base_Connector="_Tpg8kNPpEeekFecuvlB-BA"/>
+  <Blocks:BindingConnector xmi:id="_XZ_kkNPpEeekFecuvlB-BA" base_Connector="_XZXScNPpEeekFecuvlB-BA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_GcoPENPqEeekFecuvlB-BA" base_Class="_GcKVANPqEeekFecuvlB-BA"/>
 </xmi:XMI>
